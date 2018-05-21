@@ -21,4 +21,4 @@ if (process.env.NODE_ENV === 'dev') {
     urlDB = 'mongodb://cafe-user:123456@ds239009.mlab.com:39009/cafe';
 }
 
-process.env.urlDB = urlDB;
+process.env.URLDB = urlDB;
